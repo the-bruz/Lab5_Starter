@@ -26,7 +26,6 @@ function init() {
   const button = document.querySelector('button');
   button.addEventListener('click', (event) => {
     if (horn.value == 'party-horn'){
-      console.log('here');
       jsConfetti.addConfetti();
     }
     aud.play();
